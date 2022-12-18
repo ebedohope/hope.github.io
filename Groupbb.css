@@ -1,0 +1,456 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.b1{
+    background-color: rgb(36, 33, 33);
+    
+}
+.hope {
+    /* background-image: url(juju.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(html.jpg);
+    background-position: center;
+}
+/* web development containert
+ */
+ .marq{
+    /* border: 1px solid white; */
+    width: 60%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+    /* background-color: rgba(128, 128, 128, 0.555); */
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: pink;
+    text-shadow: 0 0 6px #bd2370, 0 0 8px #2020ce;
+    /* border-radius: 50%; */
+ }
+.webdev {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.459);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(204, 198, 198);
+    box-shadow: 4px 4px 4px grAY;
+    margin-bottom: 60px;
+
+}
+
+.webdev:hover {
+    box-shadow: 10px 10px 10px white;
+    border-radius: 50px 0px 50px 0px;
+    transition: 2.5s;
+}
+
+.conweb {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.web_box1 {
+    height: 300px;
+    width: 320px;
+    background-image:url(html.png) ; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border: 0.5px solid rgb(204, 204, 204);
+}
+.web_box2 {
+    height: 300px;
+    width: 320px;
+    background-image: url(css.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(204, 204, 204);
+}
+.web_box3 {
+    height: 300px;
+    width: 320px;
+    background-image: url(js.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(204, 204, 204);
+    margin-right: 10px;
+}
+
+.web_box1:hover {
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(233, 129, 129);
+    border-radius: 9px 2px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+}
+
+.web_box2:hover {
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(181, 181, 252);
+    border-radius: 9px 0px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+}
+
+.web_box3:hover {
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(245, 245, 165);
+    border-radius: 9px 0px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+}
+
+#web {
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 130px;
+    /* width: 350px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    /* display: ; */
+}
+
+#web:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkblue;
+}
+@media only screen and (max-width: 500px) {
+    #web {
+        font-size: 50px;
+        color: purple;
+    
+    }
+}
+/* css for game development*/
+.gamedev {
+    width: 90%;
+    height: 400px;
+    background-color: rgb(247, 243, 243);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(204, 198, 198);
+    box-shadow: 4px 4px 4px #665353;
+    margin-bottom: 60px;
+
+}
+
+.gamedev:hover {
+    box-shadow: 10px 10px 10px #665353;
+    border-radius: 50px 0px 50px 0px;
+    transition: 2.5s;
+}
+.congame {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: auto;
+    
+}
+.game_box1  {
+    height: 300px;
+    width: 320px;
+     background-image: url(py.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    /* border: 0.5px solid rgb(204, 204, 204); */
+}
+
+.game_box2 {
+    height: 300px;
+    width: 320px;
+    background-image: url(cpp.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    /* border: 0.5px solid rgb(204, 204, 204); */
+}
+.game_box1:hover {
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(233, 129, 129);
+    border-radius: 9px 2px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+}
+
+.game_box2:hover {
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(181, 181, 252);
+    border-radius: 9px 0px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+}
+
+
+
+
+.ee{
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+}
+.h{color:rgb(197, 61, 20);}
+.h:hover {text-shadow: 2px 2px 7px rgb(255, 0, 0) ;transition: 1s;}
+.i{color:rgb(30, 99, 139);}
+.i:hover{text-shadow: 2px 2px 7px blue  ;transition: 1s;}
+.u{color: rgb(194, 194, 0);}
+.u:hover{text-shadow: 2px 2px 7px rgb(255, 255, 0) ;transition: 1s;}
+
+.SU{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+}
+.G{
+        padding: 9px 25px;
+            background-color: rgba(0, 136, 169, 1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 18px;
+            width: 5%;
+            height: 9%;
+}
+/* get started button */
+.GS{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    font-size: 18px;
+    width: 20%;
+    height: 9%;
+
+}
+.GS:hover{
+    background-color:rgb(65, 183, 212) ;
+    color: black;
+    border: #edf0f1;
+    transition: 1s;
+}
+/* submit button css */
+.SUB{
+    width: 200px;
+    padding: 9px 25px;
+    background-color: rgb(114, 185, 202);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+    color: beige;
+    font-size: x-large;
+}
+/* css for nav bar */
+li,
+a,
+button {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.logo {
+    cursor: pointer;
+    height: 70px;
+    width: 110px;
+
+}
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a :hover {
+    color: aqua;
+}
+
+.label {
+    margin-left: 50px;
+}
+ul li a :hover{color: aqua;
+
+}
+#ul{
+    background-color: rgb(180, 12, 12);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     } 
+     
+ul li{
+        display: inline;
+    
+     }
+ ul li a{
+        text-decoration: none;
+        padding: 10px 15px;
+        color: rgb(168, 164, 164);
+        display: inline-block;
+        box-shadow: inset;
+     }
+ul li a:hover{ 
+    color: rgb(102, 102, 105);
+        /* border-style: solid; */
+        /* border-bottom-color: black; */
+    
+     } 
+/* css for sign up ..........................iii..oooo.o.o...ooo.. */
+                 
+.form{
+    /* background-image: url(form.jpg); */
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: rgb(0, 0, 0);
+}
+     .container {
+                     display: flex;
+                     justify-content: center;
+                     margin-left: auto;
+                     margin-right: auto;
+        
+        
+                 }
+                 /* input css */
+                 .hh{
+                    width:300px;
+                    height: 40px;
+                    padding: 4%;
+                    border: none;
+                    background-color: whitesmoke;
+                    box-shadow: inset;
+                    border-radius: 10px;
+                
+                }
+                .hh:hover{
+                    box-shadow: 3px 3px 3px 3px gray;
+                    color: black;
+                    
+                }
+        
+        
+                 .box1 {
+                    
+                     height: 400px;
+                     width: 400px;
+                     background-color: transparent ;
+                     color:white
+                 }
+        
+
+                 .box2 {
+                     height: 400px;
+                     width: 400px;
+                     background-color: transparent;
+                     background-image: url(mn.png);
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     border-radius: 0px 0px 50px 0px;
+                 }
+        
+                 .title {
+                     font-family: unset;
+                     font-size: 40px;
+                     margin-top: 40px;
+                 }
+        
+                 .wb {
+                     font-size: 10px;
+                     color: rgb(112, 112, 112);
+                 }
+        
+                 .lab {
+                     float: left;
+                     margin-left: 100p;
+                     font-size: smaller;
+                     font-family: cursive;
+                     margin-top: 3px
+                 }
+        
+                 .inp {
+                     width: 240px;
+                     background-color: transparent;
+                     border-color: transparent;
+                     border-bottom: 2px solid gray;
+                 }
+        
+                 .dd {
+                     font-size: xx-small;
+                 }
+                 .ff{
+                    width: 100px;
+                    height: 20px;
+                 }
+                 .ppo{
+                    height: 550px;
+                    width: 100%;
+                    background-color: black;
+                    color: #edf0f1;
+                    border-radius: 1px;
+                    border-color: transparent;
+                    
+                 }
+                 #qq{
+                    background-color: black;
+                    
+                 }
+                 .we{
+                    background-color: black;
+                    width: 100% ;
+                    height: 200px;
+                 }
+                 
+                 

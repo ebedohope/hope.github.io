@@ -1,0 +1,103 @@
+/* web development containert
+ */
+ .webdev{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(247, 243, 243);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(204, 198, 198);
+    box-shadow: 4px 4px 4px   #665353;
+    margin-bottom: 60px;
+ 
+ }
+ .webdev:hover{
+    box-shadow: 10px 10px 10px #665353;
+    border-radius: 50px 0px 50px 0px;
+    transition: 2.5s;
+ }
+ .conweb{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-bottom: auto;
+ }
+ .web_box1{
+    height: 300px;
+    width: 320px;
+    /* background-image:url(html.png) ; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border: 0.5px solid rgb(204, 204, 204);
+
+ }
+ .text_html{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    font-family: j;
+    justify-content: center;
+    align-items: center;
+ }
+ .web_box2{
+    height: 300px;
+    width: 320px;
+    background-image: url(css.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(204, 204, 204);
+ }
+ .web_box3{
+    height: 300px;
+    width: 320px;
+    background-image: url(js.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:0.5px solid rgb(204, 204, 204);
+    margin-right: 10px;
+ }
+ .web_box1:hover{
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(233, 129, 129);
+    border-radius: 9px 2px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+} 
+.web_box2:hover{
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(181, 181, 252);
+    border-radius: 9px 0px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+ }
+ .web_box3:hover{
+    box-shadow: 10px 10px 10px #665353;
+    background-color: rgb(245, 245, 165);
+    border-radius: 9px 0px 9px;
+    border-color: transparent;
+    transition: 1.7s;
+
+ }
+#web{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size :130px;
+    width: 350px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 200;
+}
+#web:hover{
+       text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkblue;
+}
